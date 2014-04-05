@@ -1,0 +1,10 @@
+/* All the CSS related Bower Components */
+@import "vendor";
+
+/* Global config */
+@import "config/variables"; // Your custom variables
+@import "config/colors";    // Your custom color scheme
+@import "config/settings";  // Default settings file. Uncomment each setting you need to change
+
+/* Site structure */
+@import "site/structure"; // Your site structure
