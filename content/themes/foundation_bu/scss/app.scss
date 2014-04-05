@@ -1,0 +1,73 @@
+/* Global config */
+@import "config/variables"; // Your custom variables
+@import "config/colors"; // Your custom color scheme
+@import "config/settings"; // Default settings file. Uncomment each setting you need to change
+@import "general_foundicons";
+// @import "config/general_foundicons_ie7";
+
+/* Foundation 5 */
+@import "foundation"; // Foundation 5 by Zurb
+
+/* Site structure */
+@import "site/structure"; // Your site structure
+
+
+.top-bar .name h1 a {
+	background: url('../img/logo.png') no-repeat center center ;
+	background-size: 75%;
+	text-indent: -9999px;
+	width: 224px;
+}
+
+
+
+
+.large-content-block {
+	padding: 0 1rem;
+}
+
+.library-content li {
+	padding: 0 1rem;
+	margin-bottom: 2rem;
+	h3,h4,h5,p {
+		color: #1b1b1b;
+		}
+	.content-block {
+		background: whitesmoke;
+		padding: .75rem;
+		border-radius: 5px;
+	}
+}
+
+
+
+.top-radius {
+	border-top-right-radius: .25rem;
+	border-top-left-radius:  .25rem;
+}
+
+.bottom-radius {
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius:  .25rem;
+}
+
+
+
+
+li.title {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+li.cta-button {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.pricing-table li.premium {
+	background: #501EB9;
+}
+
+article {
+	margin-top: 4em;
+}

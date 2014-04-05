@@ -1,0 +1,178 @@
+/**
+ * Table of Contents for FoundationPress:
+ *
+ * 1.0 - Typography
+ * 2.0 - Header, sidebar and footer
+ * 3.0 - Content
+ * 3.1 - Pages
+ * 3.2 - Posts
+ * 3.3 - Widgets
+ * 3.4 - Comments
+ * 3.5 - Lists
+ * 3.6 - Forms
+ * 4.0 - Plugins
+
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 1.0 Typography
+ * ----------------------------------------------------------------------------
+ */
+
+h1 {
+	color:       white;
+	font-weight: bold;
+}
+
+.iconfont {
+	left:     4px;
+	position: relative;
+	top:      4px;
+}
+
+.label {
+	margin-left: .25em;
+}
+
+
+/**
+ * 2.0 Content Types
+ * ----------------------------------------------------------------------------
+ */
+
+.hero-row {
+	padding-top: 8em;
+	height: 42em;
+	margin-bottom: 8em;
+	h2 {
+		margin-bottom: 1em;
+	}
+}
+
+.top-row {
+	padding-top: 2em;
+	margin-bottom: 8em;
+}
+
+.large-row {
+	padding-top: 8em;
+	padding-bottom: 8em;
+}
+
+.bottom-row {
+	padding-top: 2em;
+	margin-bottom: 8em;
+}
+
+.checkout-row {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.nested-row {
+	margin-bottom: 6em;
+}
+
+/**
+ * 2.0 Header, sidebar and footer
+ * ----------------------------------------------------------------------------
+ */
+
+footer {
+	margin-top: 8em;
+	height: 16em;
+}
+
+
+
+/**
+ * 3.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+#features-hero {
+	background: url('../img/mixer.jpg') no-repeat center top fixed ;
+	background-position-y: -19em;
+}
+
+#home-hero {
+	background: url('../img/hero.png') no-repeat center top fixed ;
+}
+
+.pricing-table {
+	margin-top: 2em;
+}
+
+fieldset {
+	border: none;
+}
+/**
+ * 3.1 Pages
+ * ------------------------------------
+ */
+
+// Insert styles here
+
+
+/**
+ * 3.2 Posts
+ * ------------------------------------
+ */
+
+// Insert styles here
+
+
+/**
+ * 3.3 Widgets
+ * ------------------------------------
+ */
+
+.cta {
+	margin: 4em auto;
+}
+
+
+/**
+ * 3.4 Comments
+ * ------------------------------------
+ */
+
+// Insert styles here
+
+
+/**
+ * 3.5 Lists
+ * ------------------------------------
+ */
+
+// Insert styles here
+
+
+/**
+ * 3.6 Forms
+ * ------------------------------------
+ */
+
+.create-account {
+	clear: both;
+}
+
+
+/**
+ * 4.0 Plugins
+ * ----------------------------------------------------------------------------
+ */
+
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+float: none;
+width: 100%;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+float: none;
+}
+
+.place-order {
+	margin-top: 4em;
+}
