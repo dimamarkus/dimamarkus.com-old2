@@ -1,5 +1,0 @@
-sql-dumps
-*.sql
-clean-slate.sh
-
-sftp-config.json
