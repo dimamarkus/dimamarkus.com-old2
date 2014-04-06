@@ -8,3 +8,8 @@
 
 /* Site structure */
 @import "site/structure"; // Your site structure
+
+
+div[role=main] article {
+	margin-bottom: 4em;
+}

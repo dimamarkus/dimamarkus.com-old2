@@ -9906,3 +9906,6 @@ th.hide-for-touch {
  * 4.0 Plugins
  * ----------------------------------------------------------------------------
  */
+/* line 13, ../scss/app.scss */
+div[role=main] article {
+  margin-bottom: 4em; }
