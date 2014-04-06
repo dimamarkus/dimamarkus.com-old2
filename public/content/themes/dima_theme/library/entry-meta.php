@@ -7,7 +7,7 @@ if(!function_exists('FoundationPress_entry_meta')) :
 endif;
 
 function dmTheme_entry_time() {
-  echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('%s at %s.', 'FoundationPress'), get_the_time('Y/m/d'), get_the_time()) .'</time>';
+  echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. sprintf(__('%s', 'FoundationPress'), get_the_time('Y/m/d')) .'</time>';
 }
 
 function dmTheme_entry_author() {

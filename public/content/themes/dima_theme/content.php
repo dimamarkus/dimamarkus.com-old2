@@ -12,7 +12,7 @@
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 	</header>
 	<div class="entry-content">
-		<h2 class="subheader"><?php echo types_render_field('subheading', ""); ?></h2>
+		<h3 class="subheader"><?php echo types_render_field('subheading', ""); ?></h2>
 	</div>
 	<footer>
 		<?php dmTheme_entry_time(); ?>
